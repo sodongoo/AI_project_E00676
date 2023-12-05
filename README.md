@@ -8,6 +8,8 @@ Our project involves the construction of three models, developed in-house and bu
 
 ## Methods
 
+ ![Alt text](image.png)
+
 Firstly, we conducted preprocessing to ensure data quality. Within this preprocessing phase, we took measures to guarantee the distinctiveness of all variables and the absence of missing values. We also analyzed the ranges of certain numerical features, including physical health, BMI, and mental health.  It became apparent that several of our features were categorical, necessitating conversion to numerical format using OneHotEncoder, resulting in binary representations (0 and 1). Additionally, we opted to exclude the patient ID, considering it as non-essential to our model.
 After encoding all the categorical variables and removing non-essential variables, we merged our dataset with a new dataframe containing the newly encoded variables, omitting the old variables. This enabled us to perform visualizations between variables and physical health, exploring correlations through techniques such as violin plots, box plots, pie charts, and bar charts. We also employed various statistical measurements to assess the prevalence of specific diseases, like skin cancer, among the population. 
 However, during our visualization and analysis, a noteworthy discovery emerged: 70.43% of individuals exhibited a value of 0 in their Physical Health. This raised questions about the underlying reasons for such a significant proportion. Additionally, in the course of our visualizations, we addressed outliers in non-categorical variables such as hours of sleep, BMI, and physical health. Rigorous checks were implemented to ensure the absence of values beyond acceptable thresholds—neither too low nor too high.
@@ -58,6 +60,6 @@ Since our models do not predict with the high accuracy that we hoped for, this i
 
 
 
-![Alt text](image.png)
+
 
 
