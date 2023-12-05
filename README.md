@@ -8,3 +8,4 @@ Our project involves the construction of three models, developed in-house and bu
 
 ![Alt text](image.png)
 
+![Alt text](Class Schedule.png)
