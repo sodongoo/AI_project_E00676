@@ -41,6 +41,8 @@ Similarly, the R-squared (R2) score gauges the model's goodness of fit by assess
  
  
 # Results
+
+ ![Alt text](graph.png)
  
 When evaluating the performance of our models, R2 scores serve as one metric for comparison. Most of our models demonstrate better predictive capabilities compared to our baseline model, with the exception of our Lasso regression model, which yields a lower R2 score. This is also visible in the figure above. Notably, the Random Forest model consistently achieves the highest R2 score, indicating its better performance in explaining variance.
 When considering Mean Absolute Error (MAE) scores, the results reinforce the conclusion that the Random Forest model excels in prediction accuracy. It is crucial to note that while the Random Forest model emerges as the best performer based on R2 and MAE scores, this conclusion is contingent on relatively small differences between the other models. The Random Forest model's advantage could be attributed to hyperparameter tuning, a factor that contributes to its slight performance edge over the other three regression models that did not undergo this optimization process. This nuanced understanding underscores the importance of considering not only the final metrics but also the methodologies applied in model development.
